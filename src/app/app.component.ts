@@ -1,19 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from "./shared/footer/footer.component";
-import { QuinuaComponent } from "./components/quinua/quinua.component";
-import { CafeComponent } from "./components/cafe/cafe.component";
+import { QuinoaComponent } from "./components/quinoa/quinoa.component";
+import { CoffeComponent } from "./components/coffee/coffee.component";
+import { AboutUsComponent } from "./components/about-us/about-us.component";
+import { HeaderComponent } from "./components/header/header.component";
+import { SocialComponent } from "./shared/social/social.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [
-    // RouterOutlet,
-    NavbarComponent,
+    AboutUsComponent,
+    CoffeComponent,
     FooterComponent,
-    QuinuaComponent,
-    CafeComponent
+    QuinoaComponent,
+    HeaderComponent,
+    SocialComponent,
+    CoffeComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

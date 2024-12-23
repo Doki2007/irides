@@ -1,0 +1,25 @@
+/* Estilo base para los enlaces del menú */
+.menu-item {
+  position: relative;
+  text-decoration: none; /* Sin subrayado por defecto */
+  color: #fff; /* Color del texto */
+  padding: 5px 10px; /* Espaciado opcional */
+  display: inline-block;
+}
+
+/* Subrayado animado al hacer hover */
+.menu-item::after {
+  content: ''; /* Elemento pseudo para el subrayado */
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px; /* Grosor del subrayado */
+  background-color: #007BFF; /* Color del subrayado */
+  transition: width 0.3s ease-in-out; /* Animación suave */
+}
+
+/* Efecto hover para mostrar el subrayado */
+.menu-item:hover::after {
+  width: 100%; /* Extender el subrayado al 100% del ancho del elemento */
+}
