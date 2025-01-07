@@ -20,6 +20,7 @@ module.exports = {
       backgroundImage: {
         'quinoa-field': "url('./assets/images/quinoa-field.webp')",
         'coffe-field': "url('./assets/images/coffe-field.webp')",
+        'coffee-plantation': "url('./assets/images/coffee_plantation.webp')",
         'red-quinoa': "url('./assets/images/red-quinoa.webp')",
         'white-quinoa': "url('./assets/images/white-quinoa.webp')",
         'coffee': "url('./assets/images/coffee.webp')",

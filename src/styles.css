@@ -9,3 +9,7 @@ body {
   background-image: url(assets/images/patron_irides.webp);
   background-size: 700px;
 }
+
+p, dd {
+  font-size: 17.2px;
+}
