@@ -23,3 +23,9 @@
 .menu-item:hover::after {
   width: 100%; /* Extender el subrayado al 100% del ancho del elemento */
 }
+
+
+.text-shadow {
+  text-shadow: #fff 0 1px 2px;
+}
+
