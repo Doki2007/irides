@@ -16,6 +16,7 @@ module.exports = {
         'i-red-2': '#8A2B1F',
         'i-yellow': '#FDC63B',
         'i-yellow-2': '#fef0c7',
+        'i-yellow-3': '#fef0c790',
       },
       backgroundImage: {
         'quinoa-field': "url('./assets/images/quinoa-field.webp')",
