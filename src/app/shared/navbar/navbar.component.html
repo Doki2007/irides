@@ -12,10 +12,10 @@
       <div class="relative border-t-2 border-i-blue mt-8 -mb-4"></div>
       <ul class="font-i-k2d font-bold text-xl text-white flex flex-col  md:items-center p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
         <li>
-          <a href="#quinoa"   class="block py-2 px-3 rounded text-shadow md:p-0 menu-item">Productos</a>
+          <a (click)="scrollToSection('quinoa')"  class="block py-2 px-3 rounded text-shadow md:p-0 menu-item hover:cursor-pointer transition">Productos</a>
         </li>
         <li>
-          <a href="#about-us" class="block py-2 px-3 rounded text-shadow md:p-0 menu-item">Nosotros</a>
+          <a (click)="scrollToSection('about-us')" class="block py-2 px-3 rounded text-shadow md:p-0 menu-item hover:cursor-pointer transition">Nosotros</a>
         </li>
         <li>
           <button class="bg-green-500 p-3 rounded-lg border border-i-green shadow-sm shadow-i-green text-white transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-i-green-500 focus:ring-offset-2 focus:ring-offset-i-green-900 " >

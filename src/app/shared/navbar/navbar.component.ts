@@ -10,4 +10,10 @@ import { Component } from '@angular/core';
 })
 export class NavbarComponent {
 
+
+  scrollToSection(sectionString: string) {
+    const section = document.querySelector(`#${sectionString}`);
+    section?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
 }
