@@ -17,10 +17,10 @@ export class GalleryComponent {
     'assets/images/gallery/quinoa/logo-iii.jpg',
     'assets/images/gallery/quinoa/logo-ii.jpg',
     'assets/images/gallery/quinoa/paisaje.jpg',
-    'assets/images/gallery/quinoa/cosecha-quinoa.jpg',
-    'assets/images/gallery/quinoa/paisaje-3.jpg',
     'assets/images/gallery/quinoa/titicaca.jpg',
+    'assets/images/gallery/quinoa/paisaje-3.jpg',
     'assets/images/gallery/quinoa/paisaje-2.jpg',
+    'assets/images/gallery/quinoa/cosecha-quinoa.jpg',
   ]
 
   public coffee: string[] = [
