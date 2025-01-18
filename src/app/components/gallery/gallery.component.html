@@ -13,6 +13,7 @@
         [ngClass]="{ 'featured': i === 0 }"
         >
         <img
+          loading="lazy"
           [src]="q"
           alt="Foto"
           class="w-full h-full object-bottom transition-transform duration-500 ease-in-out hover:scale-110"
@@ -33,6 +34,7 @@
         [ngClass]="{ 'featured': i === 0  ||  i === 7 || i === 12 || i === 19}"
         >
         <img
+          loading="lazy"
           [src]="c"
           alt="Foto"
           class="w-full h-full object-bottom transition-transform duration-500 ease-in-out hover:scale-110"/>
