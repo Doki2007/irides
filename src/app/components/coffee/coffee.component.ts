@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-coffee',
+  selector: 'component-coffee',
   standalone: true,
   imports: [],
   templateUrl: './coffee.component.html',

@@ -5,6 +5,7 @@ import { CoffeComponent } from "./components/coffee/coffee.component";
 import { AboutUsComponent } from "./components/about-us/about-us.component";
 import { HeaderComponent } from "./components/header/header.component";
 import { SocialComponent } from "./shared/social/social.component";
+import { GalleryComponent } from "./components/gallery/gallery.component";
 
 @Component({
   selector: 'app-root',
@@ -12,11 +13,12 @@ import { SocialComponent } from "./shared/social/social.component";
   imports: [
     AboutUsComponent,
     CoffeComponent,
+    CoffeComponent,
     FooterComponent,
-    QuinoaComponent,
+    GalleryComponent,
     HeaderComponent,
+    QuinoaComponent,
     SocialComponent,
-    CoffeComponent
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

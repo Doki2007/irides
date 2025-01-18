@@ -1,0 +1,43 @@
+<div id="gallery" class="mx-auto max-w-screen-sm pb-32 font-i-k2d md:max-w-screen-md lg:max-w-screen-lg px-4">
+
+  <div class="mx-auto max-w-screen-lg mb-8">
+    <h2 class="text-shadow text-balance text-center text-3xl font-i-k2d font-bold tracking-tight text-gray-950 py-3 sm:text-5xl">Galería</h2>
+    <h3 class="text-4xl font-semibold tracking-tight text-black text-shadow">Quinua</h3>
+  </div>
+
+  <div class="mx-auto max-w-screen-lg ">
+    <div class="gallery">
+      <div
+        class="w-full h-60 rounded-lg bg-i-yellow-2 border border-i-yellow shadow-i-yellow shadow-sm overflow-hidden"
+        *ngFor="let q of quinoa; let i = index"
+        [ngClass]="{ 'featured': i === 0 }"
+        >
+        <img
+          [src]="q"
+          alt="Foto"
+          class="w-full h-full object-bottom transition-transform duration-500 ease-in-out hover:scale-110"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="mx-auto max-w-screen-lg mt-16 mb-8">
+    <h3 class="text-end text-4xl font-semibold tracking-tight text-black text-shadow pr-24">Café</h3>
+
+  </div>
+
+    <div class="mx-auto max-w-screen-lg gallery">
+      <div
+        class="w-full h-60 rounded-lg bg-i-yellow-2 border border-i-yellow shadow-i-yellow shadow-sm overflow-hidden"
+        *ngFor="let c of coffee; let i = index"
+        [ngClass]="{ 'featured': i === 0  ||  i === 7 || i === 12 || i === 19}"
+        >
+        <img
+          [src]="c"
+          alt="Foto"
+          class="w-full h-full object-bottom transition-transform duration-500 ease-in-out hover:scale-110"/>
+      </div>
+    </div>
+
+</div>
+

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-social',
+  selector: 'shared-social',
   standalone: true,
   imports: [],
   templateUrl: './social.component.html',

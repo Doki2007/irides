@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  //TODO: CAMBIAR NOMBRE DE SELECTOR
-  selector: 'app-navbar',
+  selector: 'shared-navbar',
   standalone: true,
   imports: [],
   templateUrl: './navbar.component.html',

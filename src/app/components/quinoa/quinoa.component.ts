@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-quinoa',
+  selector: 'component-quinoa',
   standalone: true,
   imports: [],
   templateUrl: './quinoa.component.html',
